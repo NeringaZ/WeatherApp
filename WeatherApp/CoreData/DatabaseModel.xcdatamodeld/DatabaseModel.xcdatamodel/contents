@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ForecastDetailsEntity" representedClassName="ForecastDetailsEntity" syncable="YES">
+        <attribute name="airTemperature" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="conditionCode" optional="YES" attributeType="String"/>
+        <attribute name="forecastTimeUtc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlaceEntity" representedClassName="PlaceEntity" syncable="YES">
+        <attribute name="administrativeDivision" optional="YES" attributeType="String"/>
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="countryCode" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ForecastDetailsEntity" positionX="-63" positionY="9" width="128" height="74"/>
+        <element name="PlaceEntity" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
